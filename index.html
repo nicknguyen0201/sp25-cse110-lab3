@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel ="icon" href = "favicon.png" type = "image/png"/>
+    <title>Pomodoro Timer First Brainstorm</title>
+  </head>
+  <body>
+    <header>
+        <div>Pomodoro Timer First Brainstorm</div>
+        
+    </header>
+        
+    <main>
+        <section>
+            <h1><strong>Pomodoro Timer First Brainstorm</strong></h1>
+            <img src="pomodoro.png" 
+                alt="Pomodoro Timer"
+                width="250"
+            />
+            <h2>Brainstorming Ideas</h2>
+            <h3>Date: 4.9.2025</h3>
+            <h3><span style="color: green;"> Team Members:</span></h3>
+            <ol>
+                <li>ChenCheng Li</li>
+                <li><i>Ryan Garcia</i></li>
+                <li>Kate Stadler</li>
+                <li><strong>Nick Nguyen</strong></li>
+            </ol>
+            <h3><em>Agenda</em>:</h3>
+            <h4>Unfinished stuff from last meeting</h4>
+            <p> Agreed on the genearal UI, refer to image above</p>
+            <h5>New stuff that need to be talked about</h5>
+            <p>Diving works: 
+                <ul>
+                    <li>Ryan: Frontend</li>
+                    <li>Kate: Backend</li>
+                    <li>Nick: Testing</li>
+                    <li>ChenCheng: Documentation</li>
+                </ul>
+
+            </p>
+            
+            <h6>Comments</h6>
+            <p><b>Ryan:</b> We need to make sure that the timer is accurate and the UI is user-friendly.</p>
+            
+            <p>Kate: We should consider adding a feature to allow user to specify tasks they are working on.</p>
+            <details>
+                <summary> What is a pomodoro timer</summary>
+                <p>
+                    A Pomodoro timer is a time management tool that uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks. The technique is based on the idea that the timer creates a sense of urgency, which can help improve focus and productivity. After four pomodoros, a longer break is taken.
+                    The name "Pomodoro" comes from the Italian word for tomato, as the original timer used by Francesco Cirillo, the creator of the technique, was shaped like a tomato. The Pomodoro Technique is widely used by students and professionals to manage their time and increase productivity.
+                </p>
+            </details>
+        </section>
+        <hr/>
+        <section>
+            <h7>Recordings</h7>
+            <p>Meeting recording <br />is available for review.</p>
+            <video width="320" height="240" controls>
+                <source src="WIN_20250409_14_38_44_Pro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Meeting audio </p>
+            <audio controls>
+                <source src="converted to audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <a href="https://www.google.com">For any questions, please refer to this link</a>
+        <hr/>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>
+                        <h8>Let's your teammates get to know you</h8><br/>
+                        <label for="name">Name:</label>
+                        <input type=""text" id="name" name="name" ><br><br>
+                        <label for = "Birthday">Birthday:</label>
+                        <input type ="date" id="Birthday" name="Birthday" ><br><br>
+                        <label for="language">Favorite Programming Language:</label>
+                        <input list="langlist" id="language" name="language"/> 
+                            <datalist id = "langlist">
+                                <option value = "Python">Python</option>
+                                <option value = "Java">Java</option>
+                                <option value = "C++">C++</option>
+                            </datalist> <br><br>
+                        <label for="fastfood">Favorite Fast Food:</label>
+                        <select id="fastfood" name="fastfood">
+                            <option value="McDonald's">McDonald's</option>
+                            <option value="Burger King">KFC</option>
+                            <option value="Chick-fil-a">Subway</option>
+                            <option value="Wendy's">Taco Bell</option>
+                        </select> <br><br>
+                        <label for="radio" id = "Master Card">Master Card:</label>
+                        <input type="radio" id="Master Card" name="payment method" value="Master Card" required><br/>  
+                        <label for="radio" id = "Visa">Visa:</label>
+                        <input type="radio" id="Visa" name="payment method" value="Visa" required><br><br>
+                        <label for="ccnumber">Credit Card Number:</label>
+                        <input type="text" id="ccnumber" name="ccnumber" required><br/><br/>
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" name="cvv" required><br><br>
+                        <label type="checkbox" id="checkbox" name="checkbox">I agree to adhere to the group rules</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" required><br><br>
+                        <button type="submit">Submit</button>
+                    </legend>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
