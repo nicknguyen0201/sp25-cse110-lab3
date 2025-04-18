@@ -1,22 +1,23 @@
-#Meeting Type:
+# Meeting Type:
 
-#Date:
+# Date:
 
-#Meeting Place:
+# Meeting Place:
 
-#Meeting Time:
+# Meeting Time:
 
 
-#What did I work on yesterday?
+# What did I work on yesterday?
 
-#What will I work on today?
+# What will I work on today?
 
-#What is blocking me?
+# What is blocking me?
 
-Feedbacks from teammates:
-|Teammate   |ideas          |
-|-----------|---------------|
-|           |               |
-|           |               |
+## Feedback from teammates:
+| Teammate       | Feedback                         |
+| -------------- | -------------------------------- |
+|                |                                  |
+|                |                                  |
+|                |                                  |
 
 
