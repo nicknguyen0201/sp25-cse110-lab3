@@ -1,16 +1,25 @@
-# Meeting Type:
+# Standup Note
+___
+## Meeting Type:
+___
 -
-# Date:
+## Date:
+___
 -
-# Meeting Place:
+## Meeting Place:
+___
 -
-# Meeting Time:
+## Meeting Time:
+___
 -
-# What did I work on yesterday?
+## What did I work on yesterday?
+___
 -
-# What will I work on today?
+## What will I work on today?
+___
 -
-# What is blocking me?
+## What is blocking me?
+___
 -
 ## Feedback from teammates:
 | Teammate       | Feedback                         |
