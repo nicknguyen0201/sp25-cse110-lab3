@@ -17,10 +17,10 @@ ___
 - I planned a card game that contains 3 cards, which are rock, paper, and scissors.
 ## What will I work on today?
 
--Create the deck
+- Create the deck
 ## What is blocking me?
 
--I don't understand JavaScript
+- I don't understand JavaScript
 ## Feedback from teammates:
 | Teammate       | Feedback                         |
 | -------------- | -------------------------------- |
