@@ -25,7 +25,7 @@ ___
 | Teammate       | Feedback                         |
 | -------------- | -------------------------------- |
 | Ryan               |  Check out how to do PR                                |
-|                |                                  |
-|                |                                  |
+|     Kate           |    Here is a JS tutorial youtube video                              |
+|   Chengcheng       |    Isn't it too simple?                   |
 
 
