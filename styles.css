@@ -1,0 +1,240 @@
+h1 {
+    text-align: center;   
+    text-decoration: underline solid blue;
+    color: #008000;
+    font-size: 2em;
+
+}
+h1.static{
+    
+    position: static;
+    top: 10px;
+    left: 20px; 
+    z-index: 1000;
+
+}
+h2 {
+    text-align: center;
+    text-decoration: underline wavy black;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+h2.sticky{
+    position: sticky;
+    top: 0;
+    background: #f9f9f9; 
+}
+h3 {
+    color: hsl( 240, 100%, 50%);
+    font-size: 1.5em;
+}
+h4 {
+    color: color-mix(in display-p3, red 30%, blue 30%);
+    font-size: 20px;
+}
+:root{
+    --primary-color: color(display-p3 0.9  0.2 0.9);
+}
+h3 ~ol {
+    color: var(--primary-color,purple);
+
+    font-size: 20px; 
+}
+
+h5 ~ ul{
+    background-color: rgb(243, 112, 33);
+    display: inline-block;
+    padding: 1em;
+}
+
+h6 {
+    color: hsl( 240, 100%, 50%);
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.box {
+    
+    border: 5px dotted rebeccapurple;
+    background-color: lightgray;
+    padding-top:45px;
+    padding-bottom:45px;
+    padding-left:45px;
+    padding-right:45px;
+    
+    width: 250px;
+    height: 150px;
+
+    margin-top:  20px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  
+  
+.box2 {
+    border: 10px inset grey;
+    border-radius: 15px;
+    background-color: rgb(39, 228, 212);
+    padding: 10px;
+    
+    width: 200px;
+    height: 200px;
+
+    margin: 10px 10px 10px 10px;
+}
+.box3 {
+    border: 5px solid skyblue;
+
+    background-color: rgb(228, 228, 39);
+    margin-top:  20px;
+    margin-bottom: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    background: 
+    linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5))
+    ,url("bday.webp") ;
+   
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    max-width:600px ;
+    max-height: 600px;
+
+    margin: auto;
+}
+.emoji-block{
+    display: block;
+    background-color: grey;
+    margin: 5px;
+    width:20px;
+    
+}
+.emoji-inline-block{
+    display: inline-block;
+    
+    background-color: lightblue;
+    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-color: rgb(241, 223, 121);
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .joinBtn:hover {
+    background-color: rgb(247, 237, 225);
+  } 
+  .joinBtn:active {
+    box-shadow: 2px 2px 5px #fc894d;
+    background-color: rgb(255, 0, 0);
+  }
+  .nav{
+    display:flex;
+    justify-content:flex-start;
+    background-color: lightblue;
+    flex-flow: row wrap;
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-size: 1em;
+    font-weight: bold;
+    gap: 1rem;
+  }
+/* Base layout for larger screens */
+#Recordings {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #f0f8ff;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    
+
+  }
+#Recordings video{
+    grid-column: 3/4;
+    width:100%
+}
+#Recordings audio{
+    grid-column: 2/3;
+    width:100%
+}
+#Recordings p{
+    grid-column: 1/2;
+    width:100%
+}
+@media (max-width: 600px) {
+    #Recordings {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        /*nesting selector*/
+        p,
+        audio,
+        video {
+            grid-column: auto;
+        }
+    }
+    
+}
+@media (max-width: 400px) {
+    
+    #Recordings {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        /*nesting selector*/
+        p,
+        audio,
+        video {
+            grid-column: auto;
+        }
+    }
+}
+*{
+    font-family: 'DM Serif Text', serif;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Arial', sans-serif;
+}
+section p {
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+    color: #333;
+    line-height: 1;
+}
+ul>li{
+    list-style-type: square;
+    list-style-position: inside;
+}
+h6+p{
+    text-decoration: underline;
+}
+ul.nav>li{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+h5:has(+p) {
+    margin-bottom: 0;
+  }
