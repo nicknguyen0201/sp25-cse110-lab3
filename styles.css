@@ -32,9 +32,9 @@ h4{
     color: purple;
     font-size:20px;
 }
-@supports (color: color-mix(in display-p3, red 100% ,green 87%)){
+@supports (color: color-mix( display-p3, red 100% ,green 87%)){
     h4 {
-        color: color-mix(in display-p3, red 100% ,green 87%);
+        color: color-mix( display-p3, red 100% ,green 87%);
         font-size:20px;
     }
 }
@@ -187,11 +187,11 @@ h6 {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         /*nesting selector*/
-       &p,
-       &audio,
-       &video {
-            grid-column: auto;
-        }
+        & p,
+        & audio,
+        & video{
+             grid-column: auto;
+         }
     }
     
 }
@@ -201,9 +201,9 @@ h6 {
         grid-template-columns: 1fr;
         gap: 5px;
         /*nesting selector*/
-       &p,
-       &audio,
-       &video {
+       & p,
+       & audio,
+       & video{
             grid-column: auto;
         }
     }
